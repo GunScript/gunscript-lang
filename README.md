@@ -1,10 +1,10 @@
 # gunscript-lang
-gunscript is a language made with C++ and will be the main repository for the Gunscript organization.
+gunscript is a language made with C++(now using Python 3) and will be the main repository for the Gunscript organization.
 # Idea
 hello world in gunscript:
 ```
 start hello.gsf;
-prog.printin("Hello world");
+printin("Hello world");
 ```
 its easy, prog is a namespace(C++ reference) for printing and other easy stuff.
 i was inspired by assembly(and C++) so the idea of gunscript is basically "simplified assembly that can make text based programs, and is more C++y"
@@ -16,10 +16,10 @@ cname("example"); //cname is simplified for createnamespace();
 
 in ns("example") {
    def_func lorem() {
-    prog.printin("lorem ipsum dolor sit amet..");
+    printin("lorem ipsum dolor sit amet..");
    }
     def_func hello() {
-     prog.printin("Hello world!");
+     printin("Hello world!");
     }
 }
 ```
